@@ -1,0 +1,76 @@
+body {
+  font-family: bradley hand, puzzeled, cursive, sans-serif;
+  text-align: center;
+  background: linear-gradient(
+    105deg,
+    rgb(55, 132, 158) 25%,
+    rgb(136, 103, 47) 85%
+  );
+  padding: 50px;
+  margin: 0px auto;
+}
+
+em {
+  color: white;
+  font-family: bradley hand, puzzeled, cursive, sans-serif;
+}
+
+footer {
+  text-align: center;
+  bottom: -40px;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: wavy;
+  padding: 20px;
+  margin: 15px auto;
+  font-family: bradley hand, puzzeled, cursive, sans-serif;
+}
+
+strong {
+  text-align: center;
+}
+
+.displayArea {
+  border: 1px dotted black;
+  padding: 10px;
+  margin: 15px auto;
+  max-width: 800px;
+  border-radius: 30px;
+}
+
+button {
+  text-align: center;
+  font-size: 17px;
+  color: rgb(17, 92, 117);
+  background-color: rgb(136, 103, 47) 85%;
+  border-color: rgb(17, 92, 117);
+  border-radius: 30px;
+  box-shadow: 5px 3px 5px gray;
+  display: block;
+  padding: 15px 15px;
+  margin: 0 auto;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: rgb(136, 103, 47) 85%;
+  color: black;
+  cursor: pointer;
+}
+form {
+  background: linear-gradient(
+    105deg,
+    rgb(114, 156, 170) 25%,
+    rgb(144, 123, 86) 85%
+  );
+  font-family: bradley hand, puzzeled, cursive, sans-serif;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  border-radius: 10px;
+}
